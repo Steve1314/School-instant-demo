@@ -1,3 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+@font-face {
+    font-family:Montserrat ;
+    src: url(/font-family/Montserrat.ttf);
+}
 
 .container{
     max-width: 70%;
@@ -139,6 +148,7 @@
     display: flex;
      justify-content: space-between;
        align-items: center;
+       padding-top: 50px;
        
       
 }
@@ -190,4 +200,93 @@ box-shadow: 0px 12px 25px -9px rgba(0,0,0,0.56);
     justify-content: space-between;
     padding-top: 180px;
 }
+.numf{
+    background-color: pink;
+    opacity: 8;
+    border-radius: 50px;
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   font-weight: 700;
+    color: orangered;
+    
+}
+.flexs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+   
+}
+.textn{
+    font-weight: 700;
+    font-size: 35px;
+    margin: 20px;
+}
+.textns{
+    font-size: 30px;
+    margin: 20px;
+}
 
+.containers{
+    max-width: 70%;
+    margin: 0 auto;
+    padding-top: 400px;
+}
+.f{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fflex .text{
+    font-size: 90px;
+    font-weight: 700;
+    margin: 40px;
+}
+.fflex .textf{
+    font-size: 35px;
+    margin: 50px;
+}
+.fflex .texts{
+    font-size:40px ;
+    color: orangered;
+    font-weight: 700;
+    margin: 60px;
+}
+.f .img img{
+    width: 1000px;
+}
+.containert{
+    max-width: 70%;
+    margin: 0 auto;
+}
+.containert .img img{
+    position: absolute;
+    width: 25%;
+}
+.sale button{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-size: 30px;
+    width:100px;
+    height: 50px;
+   position: relative;
+    border-color: red;
+    top: 40px;
+    left: 30px;
+}
+.likes img{
+    width: 80px;
+    position: relative;
+    top: 450px;
+    left: 200px;
+    margin: 10px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
