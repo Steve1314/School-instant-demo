@@ -18,11 +18,9 @@
 .backgroundimg{
     background: url(/images/header.png);
     background-repeat: no-repeat;
-    height: 729px;
-width: 1440px;
-left: 0px;
-top: 0px;
-border-radius: 0px;
+ 
+
+
 
     
   }
@@ -97,6 +95,14 @@ border-radius: 0px;
     
     
 }
+.firstc{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 25px 25px 35px;
+gap: 10px;
+
+}
 .student{
     font-size: 58px;
     font-weight: 700;
@@ -159,14 +165,20 @@ border-radius: 0px;
     color: orangered;
     font-size: 14px;
     font-weight: 700;
-    margin: 25px;
+    
     line-height: 24px;
     letter-spacing: 0.2px;
+}
+.pages{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
 }
 .ourp{
     font-size: 40px;
     font-weight: 700;
-    margin: 20px;
+   
     line-height: 50px;
 }
 .flexbox{
@@ -178,14 +190,20 @@ padding: 0px;
 gap: 30px;
       
 }
+.height{
+    width: 50px;
+height: 2px;
+background: #E74040;
+}
 .fbox{
     display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-
-width: 328px;
-height: 296px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 35px 40px;
+    gap: 20px;
+    
+    width: 328px;
+    height: 247px;
    
   
 }
@@ -214,41 +232,52 @@ height: 32px;
 box-shadow: 0px 12px 25px -9px rgba(0,0,0,0.56);
 
 }
-.containerfs{
+.conyainerfs{
     display: flex;
-flex-direction: column;
-align-items: center;
-padding: 160px 0px;
-gap: 96px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 160px 0px;
+    margin: 0 auto;
+    max-width: 70%;
+
 }
 
 
+.boy {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    align-items: flex-start;
+}
 .imgtp img{
-    width:461px;
-    height: 515px;
+    width: 461px;
+height: 515.05px;
 }
 .most{
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 700;
-    margin: 20px;
+    line-height: 24px;
+   
 }
 .mostc{
     font-size:14px;
-    margin: 20px;
+   
 }
 .fleximg{
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    padding-top: 180px;
+    padding: 160px 0px;
+    gap: 96px;
+    
 }
 .numf{
-    background-color: pink;
+    background-color:#ECECEC;
     opacity: 8;
-    border-radius: 50px;
+    border-radius: 200px;
     font-size: 14px;
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -260,43 +289,62 @@ gap: 96px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 70px;
+    gap: 20px;
+    
    
+}
+.fflex{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 35px;
 }
 .textn{
     font-weight: 700;
     font-size: 14px;
-    margin: 20px;
+    
+}
+.spacet{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .textns{
     font-size: 12px;
-    margin: 20px;
+    
 }
 
 .containers{
     max-width: 70%;
     margin: 0 auto;
-    padding-top: 400px;
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 160px 0px;
 }
 .f{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 30px;
 }
 .fflex .text{
     font-size: 40px;
     font-weight: 700;
-    margin: 40px;
+   
 }
 .fflex .textf{
     font-size: 14px;
-    margin: 50px;
+   
 }
 .fflex .texts{
     font-size:14px ;
     color: orangered;
     font-weight: 700;
-    margin: 60px;
+   
 }
 .f .img img{
     width: 499.17px;
@@ -305,6 +353,11 @@ height: 398px;
 .containert{
     max-width: 70%;
     margin: 0 auto;
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 160px 0px;
+gap: 80px;
 }
 .containert .img img{
     width: 100%;
@@ -330,7 +383,8 @@ height: 398px;
     display: flex;
     flex-direction: row;
     position: absolute;
-    bottom: 0;
+    bottom: 20px;
+
     width: 100%;
     justify-content: center;
 }
@@ -341,14 +395,17 @@ height: 398px;
  
   border-radius: 10px;
   padding: 10px;
-  width: 50px;
-height: 26px;
+  width: 15px;
+height: 6px;
  
  
 }
 .certified{
     display: flex;
+    flex-direction: row;
     align-items: center;
+    padding: 0px;
+    gap: 80px;
     
 }
 .certified .most{
@@ -358,25 +415,25 @@ height: 26px;
     font-size: 14px;
     letter-spacing: 0.2px;
     font-weight: 700;
-    margin: 20px;
+   
     color: orangered;
     }
    
     .focus{
         font-size: 14px;
-        padding: 20px;
+        
         line-height: 20px;
         font-weight: 400;
     }
     .parent{
         display: flex;
-        align-items: flex-start;
-        margin: 20px;
+        align-items: center;
+        
       
     }
     .parent .img img{
-        width: 7px;
-        height: 11px;
+        width: 14px;
+        height: 15px;
         color: black;
         padding-left: 20px;
         
@@ -391,13 +448,13 @@ height: 26px;
         align-items: center;
         font-size:16px;
         font-weight: 700;
-        margin: 10px;
+        gap: 10px   ;
+        line-height: 24px;
+        
     }
-    .doller .dollerf{
-        margin: 15px;
-    }
+   
     .doller .dollers{
-        margin: 15px;
+        
         color: blue;
     }
    .buttonl button{
@@ -415,6 +472,7 @@ height: 26px;
      display: flex; 
      align-items: center;
      justify-content: space-between;
+     gap: 10px;
  }
  .img {
     position: relative;
@@ -423,6 +481,11 @@ height: 26px;
  .fifthcontainer{
     margin: 0 auto;
     max-width: 70%;
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 160px 0px;
+gap: 80px;
  }
 
  .fifthflex{
@@ -463,9 +526,13 @@ margin: 10px;
     font-weight: 700;
  }
  .lastsecond{
-    margin: 80px;
-    padding: 50px;
-   text-align: center;
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 25px;
+gap: 15px;
+width: 348px;
+height: 317.01px;
 
  }
 
@@ -475,38 +542,65 @@ margin: 10px;
     color: orangered;
  }
 .paddingtop .most{
-    font-size: 24px;
+    font-size: 40px;
 }
-
+.paddingtop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+    max-width: 70%;
+    margin: 0 auto;
+}
+.center div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
     
 .problemm{
     font-size: 14px;
-    margin: 20px;
+  
     color: #737373;
   
    
 }
-
+.leftf{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+}
 .input{
-    margin:180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 .input input{
-    width: 48%;
-    height: 70px;
+    width: 60%;
+    height: 20px;
     padding: 20px;
-    font-size: 30px;
+    font-size: 14px;
     font-weight: 700;
     border-radius: 10px;
     border-color: grey;
 }
 .input button{
-    width: 10%;
-    height: 120px;
+    width: 15%;
+    height: 63px;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 14px;
     color: white;
     background-color: rgb(255, 22, 22);
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
 }
 .footer{
@@ -552,10 +646,12 @@ height: 170px;
     height: 24px;
   
 }
-.paddingtop{
-    padding-top: 300px;
-}
+
 .company div img{
     width: 24px;
     height: 24px;
+}
+.company div{
+    display: flex;
+    align-items: center;
 }
