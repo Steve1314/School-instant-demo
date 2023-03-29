@@ -364,9 +364,7 @@ align-items: flex-start;
 padding: 160px 0px;
 gap: 80px;
 }
-.containert .img img{
-    width: 100%;
-}
+
 .sale {
     background-color: red;
     color: white;
@@ -710,7 +708,9 @@ height: 170px;
         flex-direction: column;
         gap: 94px;
     }
- 
+    .leftf .img img{
+        width: 100%;
+    }
     
     .prectical{
         font-size: 58px;
@@ -794,7 +794,7 @@ height: 170px;
     }
     .boy .mostc{
         font-size: 50px;
-    width: 1150px;
+    width: 1100px;
         
         height: 220px;
     }
@@ -963,6 +963,9 @@ height: 170px;
     }
     .ragina{
        padding: 180px;
+    }
+    .ragina img{
+        width: 500px;
     }
 }
     
