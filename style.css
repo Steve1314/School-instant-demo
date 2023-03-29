@@ -706,21 +706,8 @@ height: 170px;
         flex-direction: column;
         gap: 94px;
     }
-    .container{
-        display: flex;
-        flex-direction: column;
-        gap: 400px;
-        max-width: 90%;
-        margin: 0 auto;
-        padding: 70px 0px;
-    }
-    .containerf{
-        max-width: 90%;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        padding:1100px 0px;
-    }
+ 
+    
     .prectical{
         font-size: 58px;
     }
@@ -742,15 +729,7 @@ height: 170px;
         width:1150px;
         line-height:60px;
     }
-    .containerf{
-        display: flex;
-        flex-direction: column;
-        gap: 300px;
-        margin: 0 auto;
-        max-width: 70%;
-        padding-bottom: 100px;
-        padding: 1100px 0px;
-    }
+ 
     .flexbox{
        display: flex;
        flex-direction: column;
@@ -790,22 +769,53 @@ height: 170px;
     .fleximg{
         display: flex;
         flex-direction: column;
-        gap: 80px;
+        gap: 110px;
+        align-items: flex-start;
+        padding: 200px 0px;
     }
     .imgtp img{
-        width: 250%;
-        height: 500%;
+        width: 200%;
+        height: 400%;
+       
+    }
+    .boy{
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
     }
     .boy .most{
         font-size: 100px;
         width: 1150px;
+        line-height: 100px;
+    }
+    .boy .mostc{
+        font-size: 50px;
+    width: 1150px;
+        
+        height: 220px;
+    }
+    .flexs .numf{
+        width: 270px;
+        height: 270px;
+        font-size: 70px;
+    }
+    .flexs .spacet .textn{
+        font-size: 70px;
+    }
+    .flexs .spacet .textns{
+        font-size: 40px;
+    }
+    .spacet{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
     }
     .fifthflex{
         display: block;
     }
     .backgroundimg{
-        width: 400%;
-        height: 1000%;
+       margin: 0 auto;
+       max-width: 70%;
     }
     .responsive{
         display: flex;
@@ -820,7 +830,102 @@ height: 170px;
         width: 150px;
         height: 150px;
     }
-    
+    .containerf{
+       display: flex;
+       flex-direction: column;
+       gap: 250px;
+       padding-top: 1100px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 500px;
+    }
+    .f{
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        align-items: flex-start;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .fflex .text{
+        font-size: 100px;
+        width: 1030px;
+    }
+    .fflex .textf{
+        font-size:25px;
 
+    }
+    .fflex .texts{
+        font-size: 50px;
+    }
+    .f .img img{
+        width: 100%;
+        height: 150%;
+    }
+    .containerfo{
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+    .leftf .img{
+        width: 120%;
+    }
+    .leftf .sale{
+        width: 22%;
+        height: 12%;
+        font-size: 50px;
+    }
+    .flex .likes img{
+        width: 120px;
+       height: 120px;
+    }
+    .certified{
+        display: flex;
+        flex-direction: row;
+        gap: 400px;
+    }
+   .certified div{
+    font-size: 60px;
+   }
+   .certified .img img{
+    width: 120px;
+    height: 60px;
+   }
+   .firstc .most{
+    font-size: 60px;
+   }
+    .focus{
+    font-size: 39px;
+    line-height: 60px;
+   }
+   .parent .text{
+    font-size: 50px;
+    width: 400px;
+   }
+   .parent .img img{
+    width: 35%;
+    height: 50%;
+   }
+   .doller{
+    font-size: 50px;
+   }
+   .firstc{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   }
+   .containert{
+    display: flex;
+    flex-direction: column;
+    gap: 180px;
+   }
+.buttonl button{
+    width: 350px;
+    height: 120px;
+    font-size: 40px;
+    margin: 30px;
+}
 }
     
