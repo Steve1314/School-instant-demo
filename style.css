@@ -111,7 +111,8 @@ gap: 10px;
 }
 .our{
     font-size: 20px;
-   
+    width: 338px;
+    height: 60px;
    
      color: #737373;
     
@@ -155,9 +156,12 @@ gap: 10px;
     
    
 }
-.containerf .problemm{
-    line-height: 20px;
-    letter-spacing: 0.2px;
+ .problem{
+    font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+    width: 463px;
+height: 40px;
     
 
 }
@@ -261,7 +265,8 @@ height: 515.05px;
 }
 .mostc{
     font-size:14px;
-   
+    width: 407px;
+height: 40px;
 }
 .fleximg{
     display: flex;
@@ -510,8 +515,13 @@ margin: 10px;
  }
  .lastsecond .text{
         font-size: 14px;
-        line-height: 20px                               ;
+        line-height: 20px;
+        width: 159px;
+height: 120px;  
+      
+                                 
  }
+
  .ragina img{
     width: 50px;
     height: 50px;
@@ -527,10 +537,12 @@ margin: 10px;
  }
  .lastsecond{
     display: flex;
-flex-direction: column;
-align-items: center;
-padding: 25px;
-gap: 15px;
+    flex-direction: column;
+    align-items: center;
+   
+    
+    width: 348px;
+    height: 317.01px;
 
 
 
@@ -567,7 +579,8 @@ gap: 15px;
     
 .problemm{
     font-size: 14px;
-  
+    width: 463px;
+    height: 40px;
     color: #737373;
   
    
@@ -669,23 +682,107 @@ height: 170px;
     }
  
     .pagef .online{
-        font-size: 38px;
+        font-size: 58px;
     }
     .student{
-        font-size: 80px;
+        font-size: 180px;
     }
     .our{
-        font-size: 30px;
+        font-size: 60px;
+        width: 400px;
     }
     .joinbutton button{
-        height: 70px;
+        height: 130px;
+        width: 320px;
         font-weight: 90px;
-        font-size: 30px;
+        font-size: 50px;
+        margin: 40px;
     }
     .pagef{
         display: flex;
         flex-direction: column;
-        gap: 14px;
+        gap: 94px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 400px;
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 70px 0px;
+    }
+    .containerf{
+        max-width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        padding:1100px 0px;
+    }
+    .prectical{
+        font-size: 58px;
+    }
+    .ourp{
+        font-size: 110px;
+        width: 1267px;
+    }
+    .our{
+        width: 1000px;
+        height: 274px;
+    }
+    .pages{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .problem{
+        font-size: 50px;
+        width:1200px;
+        line-height:45px;
+    }
+    .containerf{
+        display: flex;
+        flex-direction: column;
+        gap: 300px;
+    }
+    .flexbox{
+       display: flex;
+       flex-direction: column;
+    }
+    .fbox{
+        height: 760px;
+        width: 1000px;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .the{
+        font-size: 50px;
+        width: 1000px;
+        line-height: 60px;
+    }
+    .lifeimg img{
+        width: 300px;
+        height: 300px;
+    }
+    .life{
+        font-size: 80px;
+        width: 1000px;
+    }
+    .height{
+        height: 20px;
+        width: 450px;
+    }
+    .fleximg{
+        display: block;
+    }
+    .f{
+        display: block;
+    }
+    .containerfo{
+        display: block;
+    }
+    .fifthflex{
+        display: block;
     }
 }
     
