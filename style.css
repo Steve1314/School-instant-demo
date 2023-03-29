@@ -673,6 +673,10 @@ height: 170px;
 }
 @media screen and (max-width: 991px) {
 
+    .container{
+        margin:0 auto;
+        max-width: 90%;
+    }
     .navbar{
         display: none;
     }
@@ -927,5 +931,38 @@ height: 170px;
     font-size: 40px;
     margin: 30px;
 }
+
+    .fifthflex{
+        display: flex;
+        flex-direction: column;
+       gap: 170px;
+        align-items: center;
+    }
+    .lastsecond{
+        display: flex;
+        flex-direction: column;
+     
+        align-items: flex-start;
+    }
+    .starimg{
+        width:300%;
+    }
+    .starimg img{
+        width: 100px;
+        height: 100px;
+    }
+    .lastsecond .text{
+        font-size: 60px;
+        width: 200%;
+        line-height: 50px;
+    }
+    .fifthcontainer{
+        display: flex;
+        flex-direction: column;
+        gap: 350px;
+    }
+    .ragina{
+       padding: 180px;
+    }
 }
     
