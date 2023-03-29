@@ -668,6 +668,9 @@ height: 170px;
     display: flex;
     align-items: center;
 }
+.responsive div img{
+    display: none;
+}
 @media screen and (max-width: 991px) {
 
     .navbar{
@@ -722,8 +725,8 @@ height: 170px;
         font-size: 58px;
     }
     .ourp{
-        font-size: 110px;
-        width: 1267px;
+        font-size: 100px;
+        width: 1150px;
     }
     .our{
         width: 1000px;
@@ -732,21 +735,26 @@ height: 170px;
     .pages{
         display: flex;
         flex-direction: column;
-        gap: 50px;
+        gap: 80px;
     }
     .problem{
         font-size: 50px;
-        width:1200px;
-        line-height:45px;
+        width:1150px;
+        line-height:60px;
     }
     .containerf{
         display: flex;
         flex-direction: column;
         gap: 300px;
+        margin: 0 auto;
+        max-width: 70%;
+        padding-bottom: 100px;
+        padding: 1100px 0px;
     }
     .flexbox{
        display: flex;
        flex-direction: column;
+       gap: 100px;
     }
     .fbox{
         height: 760px;
@@ -769,20 +777,50 @@ height: 170px;
         width: 1000px;
     }
     .height{
-        height: 20px;
+        height: 15px;
         width: 450px;
     }
+  
+    .conyainerfs{
+       display: flex;
+       flex-direction: column;
+       gap: 80px;
+      
+    }
     .fleximg{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
     }
-    .f{
-        display: block;
+    .imgtp img{
+        width: 250%;
+        height: 500%;
     }
-    .containerfo{
-        display: block;
+    .boy .most{
+        font-size: 100px;
+        width: 1150px;
     }
     .fifthflex{
         display: block;
     }
+    .backgroundimg{
+        width: 400%;
+        height: 1000%;
+    }
+    .responsive{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 300px;
+
+    }
+    .responsive div img{
+        display: block;
+        width: 150px;
+        height: 150px;
+    }
+    
+
 }
     
