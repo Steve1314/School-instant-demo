@@ -629,6 +629,7 @@ padding: 0px;
 .company div{
     font-size: 14px;
     font-weight: 700;
+    width: 308px;
 }
 .company{
     display: flex;
@@ -717,7 +718,8 @@ height: 170px;
     }
     .ourp{
         font-size: 100px;
-        width: 1150px;
+        width: 886px;
+    line-height: 100px;
     }
     .our{
         width: 1000px;
@@ -741,7 +743,7 @@ height: 170px;
     }
     .fbox{
         height: 760px;
-        width: 1000px;
+        width: 950px;
         display: flex;
         flex-direction: column;
         gap: 60px;
@@ -814,9 +816,7 @@ height: 170px;
         flex-direction: column;
         gap: 30px;
     }
-    .fifthflex{
-        display: block;
-    }
+ 
     .backgroundimg{
        margin: 0 auto;
        max-width: 70%;
@@ -858,14 +858,14 @@ height: 170px;
         width: 1030px;
     }
     .fflex .textf{
-        font-size:25px;
+        font-size:50px;
 
     }
     .fflex .texts{
         font-size: 50px;
     }
     .f .img img{
-        width: 100%;
+        width: 200%;
         height: 150%;
     }
     .containerfo{
@@ -935,13 +935,13 @@ height: 170px;
     .fifthflex{
         display: flex;
         flex-direction: column;
-       gap: 170px;
+       gap: 350px;
         align-items: center;
     }
     .lastsecond{
         display: flex;
         flex-direction: column;
-     
+        gap: 38px;
         align-items: flex-start;
     }
     .starimg{
@@ -952,20 +952,32 @@ height: 170px;
         height: 100px;
     }
     .lastsecond .text{
-        font-size: 60px;
+        font-size: 50px;
         width: 200%;
         line-height: 50px;
     }
     .fifthcontainer{
         display: flex;
         flex-direction: column;
-        gap: 350px;
+        gap: 300px;
     }
     .ragina{
        padding: 180px;
+       display: flex;
+       flex-direction: row;
+       gap: 20px;
+       justify-content: center;
     }
     .ragina img{
-        width: 500px;
+        width: 170px;
+        height: 170px;
+    }
+    .ragina div .orcolor{
+        font-size: 50px;
+        width: 350px;
+    }
+    .ragina div div{
+        font-size: 34px;
     }
 }
     
