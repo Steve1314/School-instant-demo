@@ -1046,7 +1046,8 @@ height: 170px;
     height: 71px;
     }
     .last{
-        padding: 300px 0px;
+     padding-top: 500px;
+     padding-bottom: 200px;
         display: flex;
         flex-direction: row;
         gap: 400px;
@@ -1060,4 +1061,4 @@ height: 170px;
         width: 85px;
         height: 71px;
 }
-    
+}
