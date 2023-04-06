@@ -677,10 +677,7 @@ height: 170px;
 }
 @media screen and (max-width: 991px) {
 
-    .container{
-        margin:0 auto;
-        max-width: 90%;
-    }
+    
     .navbar{
         display: none;
     }
@@ -824,8 +821,7 @@ height: 170px;
     }
  
     .backgroundimg{
-       margin: 0 auto;
-       max-width: 70%;
+       width: 128%;
     }
     .responsive{
         display: flex;
